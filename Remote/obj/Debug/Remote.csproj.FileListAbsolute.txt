@@ -14,3 +14,13 @@ C:\Users\ssm\Desktop\project\모두의 Traveler\code\Remote\Remote\obj\Debug\Rem
 C:\Users\ssm\Desktop\project\Remote\Remote\bin\Debug\Remote.exe.config
 C:\Users\ssm\Desktop\project\Remote\Remote\obj\Debug\Remote.exe
 C:\Users\ssm\Desktop\project\Remote\Remote\obj\Debug\Remote.pdb
+C:\Users\ssm\Desktop\project\Remote\Remote\bin\Debug\Remote.exe
+C:\Users\ssm\Desktop\project\Remote\Remote\bin\Debug\Remote.pdb
+C:\Users\ssm\Desktop\project\Remote\Remote\obj\Debug\Remote.csprojResolveAssemblyReference.cache
+C:\Users\ssm\Desktop\project\Remote\Remote\obj\Debug\MainWindow.baml
+C:\Users\ssm\Desktop\project\Remote\Remote\obj\Debug\MainWindow.g.cs
+C:\Users\ssm\Desktop\project\Remote\Remote\obj\Debug\App.g.cs
+C:\Users\ssm\Desktop\project\Remote\Remote\obj\Debug\Remote_MarkupCompile.cache
+C:\Users\ssm\Desktop\project\Remote\Remote\obj\Debug\Remote.g.resources
+C:\Users\ssm\Desktop\project\Remote\Remote\obj\Debug\Remote.Properties.Resources.resources
+C:\Users\ssm\Desktop\project\Remote\Remote\obj\Debug\Remote.csproj.GenerateResource.Cache
