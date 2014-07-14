@@ -145,6 +145,12 @@ namespace Remote {
             return;
             case 7:
             this.filter = ((System.Windows.Controls.ComboBox)(target));
+            
+            #line 35 "..\..\MainWindow.xaml"
+            this.filter.SelectionChanged += new System.Windows.Controls.SelectionChangedEventHandler(this.filter_SelectionChanged);
+            
+            #line default
+            #line hidden
             return;
             case 8:
             

@@ -27,6 +27,7 @@ namespace Remote
         public double FinishScope { get; set; }
         public double Delay { get; set; }
         public FilterType Filter { get; set; }
+        public FilterClass SelectedFilter;
 
         //simulation variable
 
@@ -34,7 +35,7 @@ namespace Remote
         public MainWindow()
         {
             InitializeComponent();
-            
+            SelectedFilter = new FilterClass();
         }
 
         private void InitializingParameter()
@@ -70,12 +71,34 @@ namespace Remote
         {
             InitializingParameter();
         }
+
+        private void filter_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            if ((FilterType)filter.SelectedIndex == FilterType.Kalman)
+            {
+
+            }
+
+            else if((FilterType)filter.SelectedIndex == FilterType.LinearRegression)
+            {
+
+            }
+            else if((FilterType)filter.SelectedIndex == FilterType.LinearRegression)
+            {
+
+            }
+            else
+            {
+                SelectedFilter = new FilterClass();
+            }
+        }
     }
 
     public enum FilterType
     {
         Kalman,        
         LinearRegression,
-        LowPass
+        LowPass,
+        Default
     }
 }

@@ -32,7 +32,7 @@
                     <TextBox Name="startscope" Margin="5 5 0 5" Height="20" HorizontalContentAlignment="Right" Text="0"/>
                     <TextBox Name="finishscope" Margin="5 5 0 5" Height="20" HorizontalContentAlignment="Right" Text="0"/>
                     <TextBox Name="delay" Margin="5 5 0 5" Height="20" HorizontalContentAlignment="Right" Text="0"/>
-                    <ComboBox Name="filter" Margin="5 5 0 5" Height="20" SelectedIndex="0" FontSize="11">
+                    <ComboBox Name="filter" Margin="5 5 0 5" Height="20" SelectedIndex="0" FontSize="11" SelectionChanged="filter_SelectionChanged">
                         <System:String>칼만필터</System:String>
                         <System:String>선형회귀</System:String>
                         <System:String>저역필터</System:String>
