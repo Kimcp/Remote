@@ -37,3 +37,16 @@ C:\Users\kim\Desktop\PROJECT\LAB\latency\Remote\Remote\obj\Debug\Remote.Properti
 C:\Users\kim\Desktop\PROJECT\LAB\latency\Remote\Remote\obj\Debug\Remote.csproj.GenerateResource.Cache
 C:\Users\kim\Desktop\PROJECT\LAB\latency\Remote\Remote\bin\Debug\Remote.exe
 C:\Users\kim\Desktop\PROJECT\LAB\latency\Remote\Remote\bin\Debug\Remote.pdb
+C:\Users\ssm\myfolder\LAB\통신지연\Remote\Remote\bin\Debug\Remote.exe.config
+C:\Users\ssm\myfolder\LAB\통신지연\Remote\Remote\obj\Debug\Remote.exe
+C:\Users\ssm\myfolder\LAB\통신지연\Remote\Remote\obj\Debug\Remote.pdb
+C:\Users\ssm\myfolder\LAB\통신지연\Remote\Remote\bin\Debug\Remote.exe
+C:\Users\ssm\myfolder\LAB\통신지연\Remote\Remote\bin\Debug\Remote.pdb
+C:\Users\ssm\myfolder\LAB\통신지연\Remote\Remote\obj\Debug\Remote.csprojResolveAssemblyReference.cache
+C:\Users\ssm\myfolder\LAB\통신지연\Remote\Remote\obj\Debug\MainWindow.baml
+C:\Users\ssm\myfolder\LAB\통신지연\Remote\Remote\obj\Debug\MainWindow.g.cs
+C:\Users\ssm\myfolder\LAB\통신지연\Remote\Remote\obj\Debug\App.g.cs
+C:\Users\ssm\myfolder\LAB\통신지연\Remote\Remote\obj\Debug\Remote_MarkupCompile.cache
+C:\Users\ssm\myfolder\LAB\통신지연\Remote\Remote\obj\Debug\Remote.g.resources
+C:\Users\ssm\myfolder\LAB\통신지연\Remote\Remote\obj\Debug\Remote.Properties.Resources.resources
+C:\Users\ssm\myfolder\LAB\통신지연\Remote\Remote\obj\Debug\Remote.csproj.GenerateResource.Cache
