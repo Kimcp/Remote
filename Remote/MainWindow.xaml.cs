@@ -45,13 +45,14 @@ namespace Remote
         public MainWindow()
         {
             InitializeComponent();
+            InitializingInput();
             SelectedFilter1 = new FilterClass();
             SelectedFilter2 = new FilterClass();
             MainTimer.Tick += new EventHandler(TimerEvent);
             ScanFreq = 10000000;
             FreqTick = 1000000;
             MainTimer.Interval = new TimeSpan(ScanFreq);
-            InitializingInput();
+            
         }
 
         private void InitializingParameter()
@@ -192,6 +193,59 @@ namespace Remote
         {
             Target = new Point(Target.X + Velocity * Math.Cos(Math.PI / 180.0 * Direction), Target.Y + (Velocity * Math.Sin(Math.PI / 180.0 * Direction) + count * gravity));
             count++;
+        }
+
+        double canvaswidth = 350;
+        double canvasheight = 350;
+        double canvasmarginleft = 30;
+        double canvasmargintop = 30;
+        private void ChangeScope()
+        {
+            if (Length != 0)
+            {
+                double start_rad_val = canvaswidth * StartScope / Length;
+                double finish_rad_val = canvaswidth * FinishScope / Length;
+
+                Canvas.SetTop(start_rad, canvasheight / 2 + canvasmargintop - start_rad_val);
+                Canvas.SetLeft(start_rad, canvaswidth / 2 + canvasmarginleft - start_rad_val);
+
+                Canvas.SetTop(start_rad_finish, canvasheight / 2 + canvasmargintop - start_rad_val);
+                Canvas.SetLeft(start_rad_finish, canvaswidth / 2 + canvasmarginleft + 350 - start_rad_val);
+
+                Canvas.SetTop(finish_rad, canvasheight / 2 + canvasmargintop - finish_rad_val);
+                Canvas.SetLeft(finish_rad, canvaswidth / 2 + canvasmarginleft - finish_rad_val);
+
+                Canvas.SetTop(finish_rad_start, canvasheight / 2 + canvasmargintop - finish_rad_val);
+                Canvas.SetLeft(finish_rad_start, canvaswidth / 2 + canvasmarginleft - 350 - finish_rad_val);
+
+                start_rad.Width = start_rad_val * 2;
+                finish_rad.Width = finish_rad_val * 2;
+                start_rad_finish.Width = start_rad_val * 2;
+                finish_rad_start.Width = finish_rad_val * 2;
+
+                start_rad.Height = start_rad_val * 2;
+                finish_rad.Height = finish_rad_val * 2;
+                start_rad_finish.Height = start_rad_val * 2;
+                finish_rad_start.Height = finish_rad_val * 2;
+            }
+        }
+
+        private void length_TextChanged(object sender, TextChangedEventArgs e)
+        {
+            Length = Int32.Parse(length.Text);
+            ChangeScope();
+        }
+
+        private void startscope_TextChanged(object sender, TextChangedEventArgs e)
+        {
+            StartScope = Int32.Parse(startscope.Text);
+            ChangeScope();
+        }
+
+        private void finishscope_TextChanged(object sender, TextChangedEventArgs e)
+        {
+            FinishScope = Int32.Parse(finishscope.Text);
+            ChangeScope();
         }
 
     }

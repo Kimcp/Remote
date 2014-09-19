@@ -50,3 +50,16 @@ C:\Users\ssm\myfolder\LAB\통신지연\Remote\Remote\obj\Debug\Remote_MarkupComp
 C:\Users\ssm\myfolder\LAB\통신지연\Remote\Remote\obj\Debug\Remote.g.resources
 C:\Users\ssm\myfolder\LAB\통신지연\Remote\Remote\obj\Debug\Remote.Properties.Resources.resources
 C:\Users\ssm\myfolder\LAB\통신지연\Remote\Remote\obj\Debug\Remote.csproj.GenerateResource.Cache
+D:\Data\Projects\Remote\Remote\bin\Debug\Remote.exe.config
+D:\Data\Projects\Remote\Remote\obj\Debug\Remote.exe
+D:\Data\Projects\Remote\Remote\obj\Debug\Remote.pdb
+D:\Data\Projects\Remote\Remote\bin\Debug\Remote.exe
+D:\Data\Projects\Remote\Remote\bin\Debug\Remote.pdb
+D:\Data\Projects\Remote\Remote\obj\Debug\Remote.csprojResolveAssemblyReference.cache
+D:\Data\Projects\Remote\Remote\obj\Debug\MainWindow.baml
+D:\Data\Projects\Remote\Remote\obj\Debug\MainWindow.g.cs
+D:\Data\Projects\Remote\Remote\obj\Debug\App.g.cs
+D:\Data\Projects\Remote\Remote\obj\Debug\Remote_MarkupCompile.cache
+D:\Data\Projects\Remote\Remote\obj\Debug\Remote.g.resources
+D:\Data\Projects\Remote\Remote\obj\Debug\Remote.Properties.Resources.resources
+D:\Data\Projects\Remote\Remote\obj\Debug\Remote.csproj.GenerateResource.Cache
