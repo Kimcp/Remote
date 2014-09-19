@@ -68,73 +68,73 @@
             </Grid.ColumnDefinitions>
             <Border Grid.Column="0" Width="400" Height="710" BorderBrush="#FFCCCCCC" BorderThickness="1">
                 <StackPanel>
-                    <Canvas Width="400" Height="400">
+                    <Canvas Width="400" Height="400" Name="finish">
                         <TextBlock Margin="10 0 0 0"><Run Text="탄착지"/></TextBlock>
                         <TextBlock Canvas.Top="383" Canvas.Left="357"><Run Text="위도"/></TextBlock>
                         <TextBlock Canvas.Top="30" Canvas.Left="3"><Run Text="경도"/></TextBlock>
-                        <Line Stroke="Black" StrokeThickness="1" X1="30" X2="380" Y1="380" Y2="380"></Line>
-                        <Line Stroke="Black" StrokeThickness="1" X1="30" X2="30" Y1="30" Y2="380"></Line>
-                        <Line Stroke="Black" StrokeThickness="1" X1="30" X2="380" Y1="30" Y2="30"></Line>
-                        <Line Stroke="Black" StrokeThickness="1" X1="380" X2="380" Y1="30" Y2="380"></Line>
-                        <Line Stroke="Black" StrokeThickness="1" X1="30" X2="380" Y1="310" Y2="310"></Line>
-                        <Line Stroke="Black" StrokeThickness="1" X1="30" X2="380" Y1="240" Y2="240"></Line>
-                        <Line Stroke="Black" StrokeThickness="1" X1="30" X2="380" Y1="170" Y2="170"></Line>
-                        <Line Stroke="Black" StrokeThickness="1" X1="30" X2="380" Y1="100" Y2="100"></Line>
-                        <Line Stroke="Black" StrokeThickness="1" X1="100" X2="100" Y1="30" Y2="380"></Line>
-                        <Line Stroke="Black" StrokeThickness="1" X1="310" X2="310" Y1="30" Y2="380"></Line>
-                        <Line Stroke="Black" StrokeThickness="1" X1="240" X2="240" Y1="30" Y2="380"></Line>
-                        <Line Stroke="Black" StrokeThickness="1" X1="170" X2="170" Y1="30" Y2="380"></Line>
+                        <Line Stroke="Black" StrokeThickness="0.5" X1="30" X2="380" Y1="380" Y2="380"></Line>
+                        <Line Stroke="Black" StrokeThickness="0.5" X1="30" X2="30" Y1="30" Y2="380"></Line>
+                        <Line Stroke="Black" StrokeThickness="0.5" X1="30" X2="380" Y1="30" Y2="30"></Line>
+                        <Line Stroke="Black" StrokeThickness="0.5" X1="380" X2="380" Y1="30" Y2="380"></Line>
+                        <Line Stroke="Black" StrokeThickness="0.5" X1="30" X2="380" Y1="310" Y2="310"></Line>
+                        <Line Stroke="Black" StrokeThickness="0.5" X1="30" X2="380" Y1="240" Y2="240"></Line>
+                        <Line Stroke="Black" StrokeThickness="0.5" X1="30" X2="380" Y1="170" Y2="170"></Line>
+                        <Line Stroke="Black" StrokeThickness="0.5" X1="30" X2="380" Y1="100" Y2="100"></Line>
+                        <Line Stroke="Black" StrokeThickness="0.5" X1="100" X2="100" Y1="30" Y2="380"></Line>
+                        <Line Stroke="Black" StrokeThickness="0.5" X1="310" X2="310" Y1="30" Y2="380"></Line>
+                        <Line Stroke="Black" StrokeThickness="0.5" X1="240" X2="240" Y1="30" Y2="380"></Line>
+                        <Line Stroke="Black" StrokeThickness="0.5" X1="170" X2="170" Y1="30" Y2="380"></Line>
                     </Canvas>
                     <Canvas Width="400" Height="290">
                         <TextBlock Margin="10 0 0 0"></TextBlock>
                         <TextBlock Canvas.Top="273" Canvas.Left="357"><Run Text="위도"/></TextBlock>
                         <TextBlock Canvas.Top="30" Canvas.Left="3"><Run Text="고도"/></TextBlock>
-                        <Line Stroke="Black" StrokeThickness="1" X1="30" X2="380" Y1="270" Y2="270"></Line>
-                        <Line Stroke="Black" StrokeThickness="1" X1="30" X2="30" Y1="30" Y2="270"></Line>
-                        <Line Stroke="Black" StrokeThickness="1" X1="30" X2="380" Y1="30" Y2="30"></Line>
-                        <Line Stroke="Black" StrokeThickness="1" X1="380" X2="380" Y1="30" Y2="270"></Line>
-                        <Line Stroke="Black" StrokeThickness="1" X1="100" X2="100" Y1="30" Y2="270"></Line>
-                        <Line Stroke="Black" StrokeThickness="1" X1="310" X2="310" Y1="30" Y2="270"></Line>
-                        <Line Stroke="Black" StrokeThickness="1" X1="240" X2="240" Y1="30" Y2="270"></Line>
-                        <Line Stroke="Black" StrokeThickness="1" X1="170" X2="170" Y1="30" Y2="270"></Line>
-                        <Line Stroke="Black" StrokeThickness="1" X1="30" X2="380" Y1="190" Y2="190"></Line>
-                        <Line Stroke="Black" StrokeThickness="1" X1="30" X2="380" Y1="110" Y2="110"></Line>
+                        <Line Stroke="Black" StrokeThickness="0.5" X1="30" X2="380" Y1="270" Y2="270"></Line>
+                        <Line Stroke="Black" StrokeThickness="0.5" X1="30" X2="30" Y1="30" Y2="270"></Line>
+                        <Line Stroke="Black" StrokeThickness="0.5" X1="30" X2="380" Y1="30" Y2="30"></Line>
+                        <Line Stroke="Black" StrokeThickness="0.5" X1="380" X2="380" Y1="30" Y2="270"></Line>
+                        <Line Stroke="Black" StrokeThickness="0.5" X1="100" X2="100" Y1="30" Y2="270"></Line>
+                        <Line Stroke="Black" StrokeThickness="0.5" X1="310" X2="310" Y1="30" Y2="270"></Line>
+                        <Line Stroke="Black" StrokeThickness="0.5" X1="240" X2="240" Y1="30" Y2="270"></Line>
+                        <Line Stroke="Black" StrokeThickness="0.5" X1="170" X2="170" Y1="30" Y2="270"></Line>
+                        <Line Stroke="Black" StrokeThickness="0.5" X1="30" X2="380" Y1="190" Y2="190"></Line>
+                        <Line Stroke="Black" StrokeThickness="0.5" X1="30" X2="380" Y1="110" Y2="110"></Line>
                     </Canvas>
                 </StackPanel>
             </Border>
             <Border Grid.Column="1" Width="400" Height="710" BorderBrush="#FFCCCCCC" BorderThickness="1">
                 <StackPanel>                    
-                    <Canvas Width="400" Height="400">
+                    <Canvas Width="400" Height="400" Name="start">
                         <TextBlock Margin="10 0 0 0"><Run Text="발사 통제소"/></TextBlock>
                         <TextBlock Canvas.Top="383" Canvas.Left="357"><Run Text="위도"/></TextBlock>
                         <TextBlock Canvas.Top="30" Canvas.Left="3"><Run Text="경도"/></TextBlock>
-                        <Line Stroke="Black" StrokeThickness="1" X1="30" X2="380" Y1="380" Y2="380"></Line>
-                        <Line Stroke="Black" StrokeThickness="1" X1="30" X2="30" Y1="30" Y2="380"></Line>
-                        <Line Stroke="Black" StrokeThickness="1" X1="30" X2="380" Y1="30" Y2="30"></Line>
-                        <Line Stroke="Black" StrokeThickness="1" X1="380" X2="380" Y1="30" Y2="380"></Line>
-                        <Line Stroke="Black" StrokeThickness="1" X1="30" X2="380" Y1="310" Y2="310"></Line>
-                        <Line Stroke="Black" StrokeThickness="1" X1="30" X2="380" Y1="240" Y2="240"></Line>
-                        <Line Stroke="Black" StrokeThickness="1" X1="30" X2="380" Y1="170" Y2="170"></Line>
-                        <Line Stroke="Black" StrokeThickness="1" X1="30" X2="380" Y1="100" Y2="100"></Line>
-                        <Line Stroke="Black" StrokeThickness="1" X1="100" X2="100" Y1="30" Y2="380"></Line>
-                        <Line Stroke="Black" StrokeThickness="1" X1="310" X2="310" Y1="30" Y2="380"></Line>
-                        <Line Stroke="Black" StrokeThickness="1" X1="240" X2="240" Y1="30" Y2="380"></Line>
-                        <Line Stroke="Black" StrokeThickness="1" X1="170" X2="170" Y1="30" Y2="380"></Line>
+                        <Line Stroke="Black" StrokeThickness="0.5" X1="30" X2="380" Y1="380" Y2="380"></Line>
+                        <Line Stroke="Black" StrokeThickness="0.5" X1="30" X2="30" Y1="30" Y2="380"></Line>
+                        <Line Stroke="Black" StrokeThickness="0.5" X1="30" X2="380" Y1="30" Y2="30"></Line>
+                        <Line Stroke="Black" StrokeThickness="0.5" X1="380" X2="380" Y1="30" Y2="380"></Line>
+                        <Line Stroke="Black" StrokeThickness="0.5" X1="30" X2="380" Y1="310" Y2="310"></Line>
+                        <Line Stroke="Black" StrokeThickness="0.5" X1="30" X2="380" Y1="240" Y2="240"></Line>
+                        <Line Stroke="Black" StrokeThickness="0.5" X1="30" X2="380" Y1="170" Y2="170"></Line>
+                        <Line Stroke="Black" StrokeThickness="0.5" X1="30" X2="380" Y1="100" Y2="100"></Line>
+                        <Line Stroke="Black" StrokeThickness="0.5" X1="100" X2="100" Y1="30" Y2="380"></Line>
+                        <Line Stroke="Black" StrokeThickness="0.5" X1="310" X2="310" Y1="30" Y2="380"></Line>
+                        <Line Stroke="Black" StrokeThickness="0.5" X1="240" X2="240" Y1="30" Y2="380"></Line>
+                        <Line Stroke="Black" StrokeThickness="0.5" X1="170" X2="170" Y1="30" Y2="380"></Line>
                     </Canvas>
                     <Canvas Width="400" Height="290">
                         <TextBlock Margin="10 0 0 0"></TextBlock>
                         <TextBlock Canvas.Top="273" Canvas.Left="357"><Run Text="위도"/></TextBlock>
                         <TextBlock Canvas.Top="30" Canvas.Left="3"><Run Text="고도"/></TextBlock>
-                        <Line Stroke="Black" StrokeThickness="1" X1="30" X2="380" Y1="270" Y2="270"></Line>
-                        <Line Stroke="Black" StrokeThickness="1" X1="30" X2="30" Y1="30" Y2="270"></Line>
-                        <Line Stroke="Black" StrokeThickness="1" X1="30" X2="380" Y1="30" Y2="30"></Line>
-                        <Line Stroke="Black" StrokeThickness="1" X1="380" X2="380" Y1="30" Y2="270"></Line>
-                        <Line Stroke="Black" StrokeThickness="1" X1="100" X2="100" Y1="30" Y2="270"></Line>
-                        <Line Stroke="Black" StrokeThickness="1" X1="310" X2="310" Y1="30" Y2="270"></Line>
-                        <Line Stroke="Black" StrokeThickness="1" X1="240" X2="240" Y1="30" Y2="270"></Line>
-                        <Line Stroke="Black" StrokeThickness="1" X1="170" X2="170" Y1="30" Y2="270"></Line>
-                        <Line Stroke="Black" StrokeThickness="1" X1="30" X2="380" Y1="190" Y2="190"></Line>
-                        <Line Stroke="Black" StrokeThickness="1" X1="30" X2="380" Y1="110" Y2="110"></Line>
+                        <Line Stroke="Black" StrokeThickness="0.5" X1="30" X2="380" Y1="270" Y2="270"></Line>
+                        <Line Stroke="Black" StrokeThickness="0.5" X1="30" X2="30" Y1="30" Y2="270"></Line>
+                        <Line Stroke="Black" StrokeThickness="0.5" X1="30" X2="380" Y1="30" Y2="30"></Line>
+                        <Line Stroke="Black" StrokeThickness="0.5" X1="380" X2="380" Y1="30" Y2="270"></Line>
+                        <Line Stroke="Black" StrokeThickness="0.5" X1="100" X2="100" Y1="30" Y2="270"></Line>
+                        <Line Stroke="Black" StrokeThickness="0.5" X1="310" X2="310" Y1="30" Y2="270"></Line>
+                        <Line Stroke="Black" StrokeThickness="0.5" X1="240" X2="240" Y1="30" Y2="270"></Line>
+                        <Line Stroke="Black" StrokeThickness="0.5" X1="170" X2="170" Y1="30" Y2="270"></Line>
+                        <Line Stroke="Black" StrokeThickness="0.5" X1="30" X2="380" Y1="190" Y2="190"></Line>
+                        <Line Stroke="Black" StrokeThickness="0.5" X1="30" X2="380" Y1="110" Y2="110"></Line>
                     </Canvas>
                 </StackPanel>
                 
